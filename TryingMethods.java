@@ -8,6 +8,7 @@ public class TryingMethods {
         mySecondStatic();
         TryingMethods trying = new TryingMethods();
         trying.dayWeek(5);
+        trying.compare(45);
 
        
 
@@ -75,6 +76,25 @@ public class TryingMethods {
         }
         System.out.println(day);
         return day;
+
+    }
+
+    public void compare (int age) {
+
+        if (age < 61) {
+
+            System.out.println("you are younger than Barack Obama");
+
+        } else if (age == 61) {
+
+            System.out.println("You are the same age as Barack Obama");
+
+        } else {
+
+            System.out.println( "you are older thann Barack Obama");
+        }
+
+
 
     }
 
