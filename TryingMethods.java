@@ -1,14 +1,18 @@
 
 
-//This class has 4 methods , two static and two dynamic
+/*This class has 4 methods , two statics and two dynamic. The first static method display the sum of all number less than 1000
+The second static method the sum of even number between 12 and 103
+The third method (dymamic) take an integer as parameter and returns the day of week according to the integer
+The forth methode compares one integer to Barack Obama age and displays the result */
 public class TryingMethods {
     public static void main(String[] args) {
-
+        String day;
         myFirstStatic();
         mySecondStatic();
         TryingMethods trying = new TryingMethods();
-        trying.dayWeek(5);
+        day = trying.dayWeek(5);
         trying.compare(45);
+        System.out.println(day);
 
        
 
@@ -74,7 +78,7 @@ public class TryingMethods {
             default: day = "ERROR";
 
         }
-        System.out.println(day);
+       
         return day;
 
     }
